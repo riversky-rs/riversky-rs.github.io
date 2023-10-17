@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Personal Profile"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,43 +8,47 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I majored in a non-computer field during my undergraduate studies, and my grades were among the top 10% of the college. I passed the entrance exam for computer science and technology and was admitted to Zhongyuan University of Technology, where my research focus is information security. The subjects I studied for the postgraduate entrance examination include data structures and algorithms, operating systems, computer organization principles, and computer networks. During my postgraduate studies, I mainly studied algorithm design and analysis, information security mathematics foundation, advanced computer system architecture, advanced software engineering, object-oriented technology, advanced computer networks, and other courses. My grades were first in the college, and I was named an outstanding graduate when I graduated. I also won the university's excellent thesis award in academics and received the national scholarship several times. In terms of work experience, I have worked as an intern in the Fourth Institute of the Chinese Academy of Sciences and Shanghai Direct Software Co., Ltd., and have rich development experience.
 
-A data-driven personal website
+Publications
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+* Liu S, Li K, Liu X, et al. DRL-based Multi-Hop Relational Reasoning for Personnel Management Knowledge Graph[C]//2023 4th International Conference on Computer Engineering and Application (ICCEA). IEEE, 2023: 633-638.
+* 李凯江, 郭倩倩, 张书钦. 智慧社区火警检测与灭火系统的研究与实现[J]. 计算机科学与应用, 2017, 7(8):11.
+* 张书钦,李凯江,李红,石志强 .基于Q-learning机制的网络动态防御策略研究[C].cwsn2017
+* 张书钦,李凯江,郭倩倩,等.工业控制网络安全脆弱性分析技术研究[J].中原工学院学报,2017,(06)
+* 张书钦,李凯江,张露,杨峻峰．基于Q-learning机制的攻击图生成技术研究[J]．电子科技,2018,031(010):6-10
+* 李凯江. 基于Q-learning机制的网络安全动态防御研究[D].2018
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Patent Situation
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+ 
+1. Published patent "Method and System for Traceability and Evidence Collection of Web Application Leakage Based on Neural Networks", with publication number CN115630342A;
+2. Published patent "Method and System for Traceability of Digital Archives Leakage", with publication number CN115600166A;
+3. Published patent "Method and System for Automatic Cataloging of Personnel Files", with publication number CN115543915A;
+4. Published patent "Method and System for Checking and Correcting Electronic Personnel Archives", with publication number CN115641602A;
+5. Published patent "Method and System for Correction of Digital Archives", with publication number CN115619656A;
+6. Published patent "Method and System for Table Conversion of Digital Archives", with publication number CN115457580A;
+7. Published patent "Method and System for Standardizing Text Fonts Based on Personnel Archive Images", with publication number CN115457577A.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Experience, Skills and Research Achievements.
+======
+During my undergraduate studies, I passed the College English Test Band 4 (CET-4) with a score of 476, demonstrating a certain level of English reading ability. I also successfully obtained the Computer Level 2 (C Language), Level 3 (Network Engineer), and Level 4 (Network Engineer) certificates. During my postgraduate studies, I published four papers. During my three years of work experience, I have been working in software development and am familiar with reading English development documentation. I am skilled in commonly used mainstream programming languages such as C/C++, Java, Golang, and Python, as well as project architecture design and implementation.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Project Experience.
+======
+Translation: 
+1. Attack Graph Analysis and Visualization (Chinese Academy of Sciences project, 2017.06-2018.07)
+As a confidential project, I was responsible for the entire project's code implementation. My work involved collecting Linux vulnerabilities, implementing Java web, and using React for front-end visualization.
 
-**Markdown generator**
+2. Direct Connection Communication between Hong Kong Stock Exchange and Shanghai Stock Exchange (2018.05-2019.08)
+I was mainly responsible for maintaining and optimizing the project's threads. This project is the gateway adapter layer between the company's internal trading servers and the exchanges. After optimizing the threads and project architecture, the instruction execution speed improved 5-10 times, from about 10ms to a response time of 2ms.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+3. Visual Operations and Maintenance Support Project (2019.08-2019.10)
+The project background was that the company's internal operations and maintenance department had limited technology. They needed to track orders in real-time and obtain order status and TPS metrics to prevent the phenomenon of unnoticed abnormal orders. The project used a front-end and back-end separation solution. After the back-end collected communication layer logs, it analyzed the execution status of instructions and performed performance testing. Then, it pushed the data to the front-end web in the form of websockets.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+4. Direct Connection Market Data for Singapore Exchange (2020.03 -2020.05)
+This project mainly involved developing the primary market data for the Singapore Futures Exchange. The project was developed using a C++ program, and the RESTful interface supported intra-day data correction operations through a web page. Currently, other exchanges are also using this method to correct market data.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+5. Margin Financing and Securities Lending Project (2020.06-2020.12)
+As an architect, I developed this project, which mainly solves the problem of the current Chinese stock market not supporting short selling. The project uses Spring Cloud for development and construction, including the implementation of a complete micro-service architecture. Additionally, the project optimized the company's development process for automated testing and deployment. The core parts of the project include the cache scheme, price matching without lock algorithm implementation, message queue for decoupling the backend and matching systems, and Netty processing of the company's internal custom market protocol.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
