@@ -62,16 +62,15 @@ Publications
   
 Project Experience
 ======
-翻译：
 1. Attack Graph Analysis and Visualization (Project of Chinese Academy of Sciences, June 2017 - July 2018)
 As a confidential project, I was responsible for the entire code implementation, which involved collecting Linux vulnerabilities, implementing Java web development, and visualizing the results using React.
-2. Direct Communication with Hong Kong Stock Exchange and Shanghai Stock Exchange (May 2018 - August 2019)
+1. Direct Communication with Hong Kong Stock Exchange and Shanghai Stock Exchange (May 2018 - August 2019)
 I was mainly responsible for the maintenance and thread optimization of this project, which is a gateway adaptation layer between the company's internal trading server and the stock exchange. After optimizing the threads and project architecture, the instruction execution speed was increased by 5-10 times, from the original 10ms to a response time of 2ms.
-3. Visualized Operation and Maintenance Support Project (August 2019 - October 2019)
+1. Visualized Operation and Maintenance Support Project (August 2019 - October 2019)
 The background of this project is that the company's internal operations and maintenance department has limited technical knowledge, and needs to track orders in real-time to obtain information such as order status and TPS indicators in order to prevent the occurrence of invisible exceptions. This project uses a front-end and back-end separation scheme. After the back-end collects the communication layer logs, it analyzes the execution status of the instructions and performs performance testing. Then, it uses a websocket to push the results to the front-end web.
-4. Direct Quote for Singapore Exchange (March 2020 - May 2020)
+1. Direct Quote for Singapore Exchange (March 2020 - May 2020)
 This project mainly involves the development of level 1 quotes for Singapore Futures Exchange. The project is developed using C++ programs and supports intraday data correction and other operations through RESTful interfaces on web pages. This approach is now being adopted by other exchanges to achieve the correction of quote data.
-5. Financing and Securities Lending Project (June 2020 - December 2020)
+1. Financing and Securities Lending Project (June 2020 - December 2020)
 As an architect, I led the development of this project, which is mainly designed to solve the problem that the current domestic stock market does not support short selling. It is a matching system for financing and securities lending. The design mainly uses the Spring Cloud framework for project development and construction, including the deployment of a complete microservices architecture and optimization of the company's development process through automated testing, building, and deployment. The core components include the caching solution, the lock-free algorithm for price matching, the message queue for decoupling the middle and back ends from the matching system, and Netty for handling the company's custom market data protocol.
   
 
