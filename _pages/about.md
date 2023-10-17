@@ -36,19 +36,19 @@ During my undergraduate studies, I passed the College English Test Band 4 (CET-4
 
 Project Experience.
 ======
-Translation: 
+
 1. Attack Graph Analysis and Visualization (Chinese Academy of Sciences project, 2017.06-2018.07)
 As a confidential project, I was responsible for the entire project's code implementation. My work involved collecting Linux vulnerabilities, implementing Java web, and using React for front-end visualization.
 
-2. Direct Connection Communication between Hong Kong Stock Exchange and Shanghai Stock Exchange (2018.05-2019.08)
+1. Direct Connection Communication between Hong Kong Stock Exchange and Shanghai Stock Exchange (2018.05-2019.08)
 I was mainly responsible for maintaining and optimizing the project's threads. This project is the gateway adapter layer between the company's internal trading servers and the exchanges. After optimizing the threads and project architecture, the instruction execution speed improved 5-10 times, from about 10ms to a response time of 2ms.
 
-3. Visual Operations and Maintenance Support Project (2019.08-2019.10)
+1. Visual Operations and Maintenance Support Project (2019.08-2019.10)
 The project background was that the company's internal operations and maintenance department had limited technology. They needed to track orders in real-time and obtain order status and TPS metrics to prevent the phenomenon of unnoticed abnormal orders. The project used a front-end and back-end separation solution. After the back-end collected communication layer logs, it analyzed the execution status of instructions and performed performance testing. Then, it pushed the data to the front-end web in the form of websockets.
 
-4. Direct Connection Market Data for Singapore Exchange (2020.03 -2020.05)
+1. Direct Connection Market Data for Singapore Exchange (2020.03 -2020.05)
 This project mainly involved developing the primary market data for the Singapore Futures Exchange. The project was developed using a C++ program, and the RESTful interface supported intra-day data correction operations through a web page. Currently, other exchanges are also using this method to correct market data.
 
-5. Margin Financing and Securities Lending Project (2020.06-2020.12)
+1. Margin Financing and Securities Lending Project (2020.06-2020.12)
 As an architect, I developed this project, which mainly solves the problem of the current Chinese stock market not supporting short selling. The project uses Spring Cloud for development and construction, including the implementation of a complete micro-service architecture. Additionally, the project optimized the company's development process for automated testing and deployment. The core parts of the project include the cache scheme, price matching without lock algorithm implementation, message queue for decoupling the backend and matching systems, and Netty processing of the company's internal custom market protocol.
 
